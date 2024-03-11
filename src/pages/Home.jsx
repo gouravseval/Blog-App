@@ -38,10 +38,17 @@ function Home() {
             </div>
         )
     }
+    if(posts.length == 0){
+        return(
+            <h1 className='text-2xl'>No post avaliable</h1>
+        )
+    }
+    
     return (
         <div className='w-full py-8 '>
             <Container>
                 <div className='home-post'>
+                    {console.log(posts.length)}
                     {posts.map((post) => (
                         <div key={post.$id} className='mobile-post p-2 w-1/4'>
                             <PostCard {...post} />

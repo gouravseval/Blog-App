@@ -12,6 +12,12 @@ function AllPosts() {
     }) 
     }, [])
     
+
+    if(posts.length == 0){
+        return(
+            <h1 className='text-2xl'>No post avaliable</h1>
+        )
+    }
   return (
     <div className='w-full py-16'>
         <Container>
