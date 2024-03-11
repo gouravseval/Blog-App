@@ -35,7 +35,6 @@ export class Service {
             return true;
         } catch (error) {
             throw error;
-            return false;
         }
     }
 
@@ -61,6 +60,7 @@ export class Service {
         try {
             return await this.bucket.createFile(conf.appwriteBucketId, ID.unique(), file)
         } catch (error) {
+            console.log("error in upload file")
             throw error
         }
     }

@@ -100,6 +100,11 @@ body {
     flex-wrap: wrap;
 }
 
+.mobile-post{
+    background-color: #f3f4f6;
+    margin: 1rem;
+    border-radius: 1rem;
+}
 
 .post-full{
     border-radius: 1rem;
@@ -134,6 +139,7 @@ body {
         background-color: #102d44;
         gap: 0rem;
         margin-top: 1rem;
+        font-size: 0.8rem;
     }
 
     .header img {
@@ -212,10 +218,12 @@ body {
 
     .mobile-post {
         display: flex;
+        height: auto;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         margin: 0;
+        margin-top: 2rem;
         padding: 0;
     }
 
