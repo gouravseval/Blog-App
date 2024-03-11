@@ -139,7 +139,9 @@ body {
         background-color: #102d44;
         gap: 0rem;
         margin-top: 1rem;
-        font-size: 0.8rem;
+        font-size: 0.75rem;
+        width: auto;
+        text-wrap: wrap;
     }
 
     .header img {
