@@ -38,7 +38,7 @@ function Header() {
   return (
     <header className='header w-full'>
       <Container>
-        <nav>
+        <nav className='flex justify-end'>
           <Link className='h-auto' to="/">
             <Logo />
           </Link>
